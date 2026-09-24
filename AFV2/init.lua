@@ -15,8 +15,8 @@
 --//   loadstring(game:HttpGet(".../AFV2/init.lua"))()
 
 local BRANCH = "main"
-local BASE = "https://raw.githubusercontent.com/Endmin1strator/AutoFarmingV5/refs/heads/master/"
-	.. BRANCH .. "/AFV2/"
+local BASE = "https://raw.githubusercontent.com/Endmin1strator/AutoFarmingV5/refs/heads/master/AFV2/"
+	.. BRANCH .. --"/AFV2/"
 
 --// Concatenation order. This list is the single source of truth for it.
 local ORDER = {
