@@ -15,7 +15,7 @@
 --//   loadstring(game:HttpGet(".../AFV2/init.lua"))()
 
 local BRANCH = "main"
-local BASE = "https://raw.githubusercontent.com/zeroschth38-jpg/svgrbxtest/refs/heads/"
+local BASE = "https://raw.githubusercontent.com/zeroschth38-jpg/AutoFarmingV/refs/heads/master/"
 	.. BRANCH .. "/AFV2/"
 
 --// Concatenation order. This list is the single source of truth for it.
