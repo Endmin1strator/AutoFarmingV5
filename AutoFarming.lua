@@ -11,7 +11,7 @@ local Player    = Players.LocalPlayer
 local PlayerGui = Player:WaitForChild("PlayerGui", 10)
 
 --// Utils is expected to be a ModuleScript named "Utils" under ReplicatedStorage.
-local Utils = loadstring(game:HttpGet("https://raw.githubusercontent.com/zeroschth38-jpg/AutoFarmingV5/refs/heads/master/main/Utils.lua"))()
+local Utils = loadstring(game:HttpGet("https://raw.githubusercontent.com/Endmin1strator/AutoFarmingV5/refs/heads/master/main/Utils.lua"))()
 local UI = Utils.new("AUTO FARMING v2.12")
 
 local function NotifyAction(Action, Message, Duration)
