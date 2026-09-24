@@ -48,7 +48,7 @@ local UIRef = {}
 local PatrolState = {}
 
 --// Utils is expected to be a ModuleScript named "Utils" under ReplicatedStorage.
-local Utils = loadstring(game:HttpGet("https://raw.githubusercontent.com/Endmin1strator/AutoFarmingV5/refs/heads/master/main/Utils.lua"))()
+local Utils = loadstring(game:HttpGet("https://raw.githubusercontent.com/Endmin1strator/AutoFarmingV5/refs/heads/master/Utils.lua"))()
 local UI = Utils.new("AUTO FARMING v2.38")
 
 local function NotifyAction(Action, Message, Duration)
